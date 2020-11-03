@@ -9,11 +9,25 @@
   <script type="text/javascript" src="tpicker.js"></script>
 </head>
 
-<body> <div class="row">
+<body>
+	<style> 
+        .Center { 
+            width:200px; 
+            height:200px; 
+            position: fixed; 
+            background-color: blue; 
+            top: 50%; 
+            left: 50%; 
+            margin-top: -100px; 
+            margin-left: -100px; 
+        } 
+    </style> <div class="row">
+	
 
   <div style="margin:50px;float:left;">
+	  
 
-      <input id="timepkr" style="width:100px;float:left;" class="form-control" placeholder="HH:MM" />
+      <input id="timepkr" style="width:100px;float:left;" class="form-control" placeholder="HH:MM"  class="Center"/>
       <button class="btn btn-primary" onclick="showpickers('timepkr',12)" style="width:50px;float:left;"><i class="fa fa-clock-o"></i><br/>
        
 
